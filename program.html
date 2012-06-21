@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<title>Program at Agile Africa</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
+	</head>
+	<body>
+		
+		<div id="welcome_content" class="welcome_content" style="height:220px">
+			<a name="developers" style="display:none"></a> 
+			<div class="content">
+				<div class="row">
+					<div class="span3"></div>
+					<div class="span8">
+						<div class="row" style="padding-top:20px; padding-bottom: 0px">
+							<div class="span2" >
+								 <img src="img/newLogo.png" style="" alt="" />
+							</div>
+							<div class="span4">
+								<h3 style="line-height:15px;">23 - 24th August 2012</h3>
+								<h1>Agile Africa<br /><span style="color:#000000;">Conference</span></h1>
+							</div>
+							<div class="span2" style="padding-top:50px; position: relative; top: -50px; left: -50px">
+								<table>
+									<tr>
+										<td style="font-size:60pt; " >}</td>
+										<td style="font-size:20pt; padding-top:15px	" > <a style="color:#444444; text-decoration:underline" data-target="#registerModal" data-toggle="modal" href="#newsletterModal">Register<br />Now </a></td>
+									</tr>
+								</table>
+							</div>	
+						</div>
+						<a name="speakers" style="display:none"></a> 
+						<h2><a href="index.html"><span style="color:#666666">Home /</span></a><a href="speakers.html" style="color:#666666" onclick="goToByScroll('speakers');"> Speakers /</span><a href="program.html" onclick="goToByScroll('program');" style="color:#5E7233"> Program / </a><a href="logistics.html"><span style="color:#666666">Venue and Hotel /</span></a><a href="sponsors.html"><span style="color:#666666"> Sponsors </span></a></h2><p></p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class=" BOTTOM_SHADOW_TEMPLATE">
+		</div>
+		<div id="program" class="program">
+			<div class="content">
+		
+
+		<h3>Topics covered during the conference include:</h3><p></p>
+		<ul style="font-size: medium; font-family: Helvetica, Arial">
+			<li>Continuous Improvement</li>
+			<li>Continuous Delivery </li>
+			<li>Affinity Estimation Techniques</li>
+			<li>Transforming your Organization to Agile</li>
+			<li>Adding value by marrying XP & Scrum</li>
+			<li>The Agile Lego Game</li>
+			<li>Estimation and Planning</li>
+			<li>The Surprising Science behind Agile Leadership</li> 
+			<li>Making Geographically distributed teams work</li>
+			<li>Creativity and Motivation</li>
+			<li>Being a Change Agent</li>
+			<li>Pomodoro Technique</li>
+			<li>Experiential Learning</li>
+			<li>Agile Testing</li>
+			<li>Fear and it's effect on Creativity</li>
+			<li>Kanban</li>
+			<li>Lean and Startup practices and principles to create the ultimate value creation machine</li>
+			<li>Product Vision</li>
+			<li>Scrum and Kanban - like Chocolate and Peanut Butter</li>
+			<li>Simple Measurements, Simply Agile</li>
+			<li>Performance Testing for Agile Teams</li>
+			<li>Transitioning Test Teams to Agile </li>
+			<li>Software Design in the 21st Century</li>
+		</ul>
+		The list grows as speakers sign up. Be sure to check back regularly, or <a style="color:#444444; text-decoration:underline" data-target="#newsletterModal" data-toggle="modal" href="#newsletterModal">sign up</a> for our newsletter.
+	</div>
+
+	<div id="newsletterModal" class="modal hide fade" >
+	    <div class="modal-header">
+	      <button class="close" data-dismiss="modal">x</button>
+	      <h2>Newsletter Sign Up</h2>
+	      <p>Complete this form to register for frequent updates.</p>
+
+	    </div>
+	    <div class="modal-body" style="overflow:hidden; backgroung-image:url('../img/subtle-pattern-5.jpg')">
+	      <iframe src="newsletterForm.html" style="width:100%; height:590px;" frameBorder="0"></iframe>
+	    </div>
+	    
+	</div>
+	<div id="registerModal" class="modal hide fade" >
+	    <div class="modal-header">
+	      <button class="close" data-dismiss="modal">x</button>
+	      <h2>Register Now</h2>
+	      <p>Complete this form to register your interest in the Agile Africa conference.</p>
+
+	    </div>
+	    <div class="modal-body" style="overflow:hidden; backgroung-image:url('../img/subtle-pattern-5.jpg')">
+	      <iframe src="registerForm.html" style="width:100%; height:590px;" frameBorder="0"></iframe>
+	    </div>
+	    
+	</div>
+	<!-- Javascript files go below here -->
+	<script type="text/javascript">
+		function goToByScroll(id){
+ 		$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+		}
+ 	</script>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js" ></script>
+	<script type="text/javascript"  src='js/bootstrap-transitions.js'></script>
+	<script type="text/javascript" src="js/bootstrap-modal.js" ></script>
+	<script src="http://platform.twitter.com/anywhere.js?id=F1jAxhNvrgMGmBrb1IZdPw&v=1" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+		twttr.anywhere(function (T) {
+    T.hovercards();
+  });
+ 
+	</script>
+	</body>
+</html>

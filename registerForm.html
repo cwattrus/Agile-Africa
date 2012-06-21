@@ -1,0 +1,111 @@
+<html>
+    <head>
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js" ></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    
+    <script type="text/javascript" >
+      function toggleMoreDetails() {
+        if($("#moreDetails").css("display") == "none") {
+          $('#moreDetails').show('slow')
+          $("#moreDetailsToggle").html("Hide required details")
+        }
+        else if($("#moreDetails").css("display") == "block") {
+          $('#moreDetails').hide('slow')
+          $("#moreDetailsToggle").html("Show required details")
+
+        }
+      }
+    </script>
+<link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+    </head>
+    <body style="background-image: none; font-family:Helvetica, Arial">
+      <div id="mc_embed_signup">
+ <form id="emf-form" enctype="multipart/form-data" method="post" class="validate" action="http://www.emailmeform.com/builder/form/B85z1a369HfuY" name="emf-form">
+    <div class="mc-field-group">
+        <label>Number of tickets<span class="asterisk">*</span></label>
+        <input id="element_3" name="element_3" value="" style="width:100%" class="validate[required]" type="text" />
+      </div>
+      <div class="mc-field-group">
+        <label>First<span class="asterisk">*</span></label>
+        <input id="element_3" name="element_3" value="" style="width:100%" class="validate[required]" type="text" />
+      </div>
+      <div class="mc-field-group">
+        <label>Last<span class="asterisk">*</span></label>
+        <input id="element_4" name="element_4" value="" style="width:100%" class="validate[required]" type="text" />
+      </div>
+      <div class="mc-field-group">
+        <label>Email<span class="asterisk">*</span></label>
+        <input id="element_8" name="element_8" class="validate[required,custom[email]]" value="" style="width:100%" type="text" />
+      </div>
+      <a href="#" id="moreDetailsToggle" class="button smallRegister" onclick="toggleMoreDetails()">Show more details</a><span style="font-size:small" >Make your experience at Agile Africa better!</span>
+      <div style="display:none" id="moreDetails">
+         <div class="mc-field-group">
+            <label>Company</label>
+            <input id="element_6" name="element_6" value="" style="width:100%" class="validate[optional]" type="text" />
+          </div>
+
+         <div class="mc-field-group">
+            <label>Role in team</label>
+            <input id="element_7" name="element_7" value="" style="width:100%" class="validate[optional]" type="text" />
+          </div>
+        <div class="mc-field-group">
+            <label>Phone Number</label>
+          
+            <table cellpadding='0' cellspacing='0' border='0'>
+              <tr>
+                <td style='padding-left:0px;'>
+                  <input maxlength='3' style='width:60px;' value='' id='element_9_1' name='element_9[]' type='text' class='validate[optional,custom[onlyNumber],length[3,3]]' /><br />
+                </td>
+                <td style='padding-top:5px;padding-left:3px;' valign='top'>
+                  <font face="Verdana" size="2" color="#000000">-</font>
+                </td>
+                <td style='padding-left:3px;'>
+                  <input maxlength='3' style='width:60px;' value='' id='element_9_2'  name='element_9[]' type='text' class='validate[optional,custom[onlyNumber],length[3,3]]' /><br />
+                </td>
+                <td style='padding-top:5px;padding-left:3px;' valign='top'>
+                  <font face="Verdana" size="2" color="#000000">-</font>
+                </td>
+                <td style='padding-left:3px;'>
+                  <input maxlength='4' style='width:80px;' value='' id='element_9_3' name='element_9[]' type='text' class='validate[optional,custom[onlyNumber],length[4,4]]' /><br />
+                </td>
+              </tr>
+            </table>
+        </div>
+        <div class="mc-field-group">
+            <label>Twitter ID</label>
+            <input id="element_10" name="element_10" value="" style="width:100%" class="validate[optional]" type="text" />
+        </div>
+       <div class="mc-field-group">
+          <label>Message</label>
+          <textarea id="element_11" name="element_11" cols="45" style="width:100%" rows="3" class="validate[optional]">
+          </textarea>
+        </div>
+        </div>
+        <script type="text/javascript">
+//<![CDATA[
+        var RecaptchaOptions = {
+                theme: 'clean',
+                custom_theme_widget: 'emf-recaptcha_widget'
+                };
+        //]]>
+        </script> <script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6LchicQSAAAAAGksQmNaDZMw3aQITPqZEsX77lT9">
+        </script> <noscript><iframe src="https://www.google.com/recaptcha/api/noscript?k=6LchicQSAAAAAGksQmNaDZMw3aQITPqZEsX77lT9" height="300" width="500" frameborder="0"></iframe><br />
+                <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+        </textarea> <input type="hidden" name="recaptcha_response_field" value="manual_challenge" /></noscript>
+              </td>
+            </tr>
+          </table>
+        <div class="form-actions">
+            <p>We will send you an email to confirm your ticket avaliablity and payment options.</p>
+            <center>
+                <input name="element_counts" value="12" type="hidden" /> <input name="embed" value="forms" type="hidden" /><input value="Send request" class="button orange"  type="submit" />
+            </center>
+        </div>
+
+
+</form>
+</div>
+<!-- Javascript files go below here -->
+        <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    </body>
+</html>

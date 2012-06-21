@@ -1,0 +1,87 @@
+hr {
+	border-bottom: 1px solid #CFCFCF;
+	border-top: 0px;
+}
+.welcome_content {
+	height: 800px;
+	z-index: 900;
+	background-image: url('img/subtle-pattern-6.jpg');
+	background-repeat: auto;
+}
+
+.developers {
+	z-index: 899;
+	background-image: url('img/subtle-pattern-5.jpg');
+	background-repeat: auto;
+}
+
+.project_managers {
+	z-index: 898;
+	background-image: url('img/subtle-pattern-4.jpg');
+	background-repeat: auto;
+}
+
+.business_analysts {
+	z-index: 897;
+	background-image: url('img/subtle-pattern-3.jpg');
+	background-repeat: auto;
+}
+
+.executive {
+	z-index: 896;
+	background-image: url('img/subtle-pattern-2.jpg');
+	background-repeat: auto;
+}
+
+.quality_analysts {
+	z-index: 895;
+	background-image: url('img/subtle-pattern-1.jpg');
+	background-repeat: auto;
+}
+
+.sponsors {
+	z-index: 894;
+	background-image: url('img/subtle-pattern-7.jpg');
+	background-repeat: auto;
+}
+
+.register {
+	z-index: 893;
+	background-image: url('img/subtle-pattern-5.jpg');
+	background-repeat: auto;
+}
+
+.content {
+	width:960;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.sellotape {
+	position: relative;
+	left: 50px;
+	background-color: #000000;
+	width: 57px;
+	height: 100%;
+	opacity:0.1;
+	filter:alpha(opacity=10);
+}
+
+.sellotab {
+	background-color: #5e7233;
+	width: 57px;
+	height: 64px;
+	position: relative;
+	bottom: 0px;
+}
+
+.bottom_shadow_template {
+	position: relative;
+	top: -9px;
+	left: -9px;
+	-moz-box-shadow: 0 0 29px hsla(0, 17%, 0%, 0.75);
+	-webkit-box-shadow: 0 0 29px hsla(0, 17%, 0%, 0.75);
+	box-shadow: 0 0 29px hsla(0, 17%, 0%, 0.75);
+	width: 110%;
+	padding: 10;
+}
